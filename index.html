@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>Chirp</title>
+
+<!-- STYLING -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+<!-- DEPENDENCIES -->
+    <script src="libs/jquery-1.11.1.js"></script>
+    <script src="libs/ember-template-compiler-1.10.0.js"></script>
+    <script src="libs/ember-1.10.0.debug.js"></script>
+    <script src="libs/ember-handlebars-loader-0.0.2.js"></script>
+    <script src="libs/ember-data-1.0.0-beta.15.js"></script>
+    <script src="libs/localstorage-adapter-0.5.1.js"></script>
+
+<!-- APP FILE -->
+    <script src="chirp.js"></script>
+
+<!-- DATA STORAGE  -->
+  <script src="store.js"></script>
+
+<!-- ROUTES -->
+    <script src="router.js"></script>
+    <script src="routes/chirp.js"></script>
+    <!-- // <script src="date.js"></script> -->
+
+<!-- CONTROLLERS   -->
+    <script src="controllers/chirp.js"></script>
+    <script src="controllers/new-post.js"></script>
+
+<!-- TEMPLATE LOADER -->
+    <script>
+    EmberHandlebarsLoader.loadTemplates(['application','chirp', 'new-post']);
+    </script>
+
+
+
+  </head>
+  <body>
+
+  </body>
+</html>

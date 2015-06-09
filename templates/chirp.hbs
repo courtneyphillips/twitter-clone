@@ -1,0 +1,17 @@
+<h1>Chirps:</h1>
+
+<ul>
+  {{#each}}
+  <li><b>{{username}}</b>
+      <p>{{chirp}}
+        <br>
+    <font size="1"><em>{{date}}</em></font></p>
+  </li>
+  {{/each}}
+</ul>
+
+{{#link-to 'new-post'}}{{/link-to}}
+
+<div class="col-md-6">
+  {{outlet}}
+</div>
